@@ -1,0 +1,17 @@
+{
+    "Kuldeep": {
+        "phone": "919876543210",
+        "tasks": []
+    },
+    "Rohit": {
+        "phone": "919123456789",
+        "tasks": []
+    },
+    "Nupur": {
+        "phone": "919999999999",
+        "tasks": [
+            "Do the assignments",
+            "new task"
+        ]
+    }
+}
