@@ -22,15 +22,16 @@ default_data = {
         "tasks": []
     }
 }
+from sre_parse import parse
 import time
 import subprocess
 import time
-import urllib
+from urllib import *
 # from pynput.keyboard import Key, Controller
 
 def send_to_whatsapp_group(message, group):
     message = "".join(i+"\n" for i in message)
-    encoded_message = urllib.parse.quote(message.replace("https", " "))
+    encoded_message = parse.quote(message.replace("https", " "))
     phone_number = ""
     cmd = f'start whatsapp://send?phone={phone_number}^&text={encoded_message}'
     subprocess.Popen(["cmd", "/C", cmd], shell=True)
