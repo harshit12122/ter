@@ -16,6 +16,10 @@ default_data = {
     "Nupur": {
         "phone": "919999999999",
         "tasks": []
+    },
+    "Harshit": {
+        "phone": "+918708215199",
+        "tasks": []
     }
 }
 import time
