@@ -27,9 +27,7 @@ import subprocess
 import time
 import urllib
 from pynput.keyboard import Key, Controller
-import pyautogui
 
-keyboard = Controller()
 def send_to_whatsapp_group(message, group):
     message = "".join(i+"\n" for i in message)
     encoded_message = urllib.parse.quote(message.replace("https", " "))
