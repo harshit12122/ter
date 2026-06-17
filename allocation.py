@@ -26,7 +26,7 @@ import time
 import subprocess
 import time
 import urllib
-from pynput.keyboard import Key, Controller
+# from pynput.keyboard import Key, Controller
 
 def send_to_whatsapp_group(message, group):
     message = "".join(i+"\n" for i in message)
